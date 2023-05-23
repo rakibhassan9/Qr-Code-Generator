@@ -35,6 +35,7 @@
             <div class="card-body">
                 {{QrCode::size(150)->color(255, 50, 220)->generate($qcode)}}
                 
+                <!-- Need to Imagick to download QR Code Image... -->
             </div>
            </div> 
         </div>
