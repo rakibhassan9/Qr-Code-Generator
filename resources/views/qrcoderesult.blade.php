@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row"style="display:flex; align-items:center; justify-content: center; gap:20px; position:relative; top:15rem">
             <div class="col-md-12" >
-                <form action="{{ route('qrcode.generate') }}" class="form-inline" style="display:flex; align-items:center; justify-content: center; gap:20px;">
+                <form action="{{ route('qrcode.generate') }}" class="form-inline" style="display:flex; align-items:center; justify-content: center; gap:30px;">
                    @csrf 
                 <div class="">
                         <label class="sr-only" for="inlineFormInputName2">Enter Text</label>
